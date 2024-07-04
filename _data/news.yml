@@ -1,0 +1,8 @@
+# _data/news.yml
+- date: 2024-07-01
+  title: "New Publication"
+  content: "Our latest paper on XYZ has been published in the Journal of ABC."
+
+- date: 2024-06-15
+  title: "Conference Presentation"
+  content: "I presented my work on ABC at the XYZ Conference."
