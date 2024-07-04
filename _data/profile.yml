@@ -16,14 +16,12 @@ twitter: your_twitter_id
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  xyang, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+  i an x 
 
 show_portrait: true
 portrait_url: assets/images/photos/portrait.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash.
+    
 
 education:
 - name: Xidian University
