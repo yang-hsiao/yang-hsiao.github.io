@@ -43,7 +43,7 @@ education:
 
 services:
 - name: ICML
-  data: 2021
+  date: 2021
 
 awards:
 - name: Outstanding Graduate Thesis
