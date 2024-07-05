@@ -25,6 +25,11 @@ portrait_caption: >-
     Xiao.
 
 education:
+- name: Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
+  logo: assets/images/badges/siat.jpg
+  position: Direct Ph.D. in Telecommunications Engineering
+  date: 2020.09 - 2024.06
+
 - name: Xidian University
   logo: assets/images/badges/xdu.png
   position: B.Eng. in Telecommunications Engineering
