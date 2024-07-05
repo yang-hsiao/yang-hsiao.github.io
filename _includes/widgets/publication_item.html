@@ -5,7 +5,7 @@
             <img data-src="{{ item.cover }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="assets/images/empty_300x200.png">
         </div>
         <div class="col-md-9 col-xl-10 p-3 pl-md-0">
-            <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
+            <h4 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h4>
             <p class="mt-0 mb-0 small" style="font-size: 12pt;">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small" style="font-size: 12pt;">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
             <p class="mt-0 mb-0 small text-muted" style="font-size: 12pt;">{{ item.abstract }}</p>
