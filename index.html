@@ -14,18 +14,3 @@ num_selected: 10
     publications=pubs limit=page.num_selected 
     title='<i class="fas fa-star"></i> Selected Publications'
 %}
-
-<!-- 新闻部分开始 -->
-<section class="news">
-    <h2>News</h2>
-    <ul>
-      {% for news in site.data.news %}
-        <li>
-          <strong>{{ news.date | date: "%B %d, %Y" }}</strong>: {{ news.title }} - {{ news.content }}
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
-  <!-- 新闻部分结束 %}
-  
-  {% endraw %}
