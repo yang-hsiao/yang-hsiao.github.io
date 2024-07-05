@@ -14,8 +14,8 @@
                                     <img src="{{ item.logo }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
                                     <div class="media-body">
                                         <p class="my-0" style="font-size: 14pt;">{{ item.name }}</p>
-                                        <p class="small my-0">{{ item.dept }}</p>
-                                        <p class="small my-0">{{ item.position }} <em class="float-right">{{ item.date }}</em></p>
+                                        <p class="small my-0" style="font-size: 12pt;">{{ item.dept }}</p>
+                                        <p class="small my-0" style="font-size: 12pt;">{{ item.position }} <em class="float-right">{{ item.date }}</em></p>
                                     </div>
                                 </li>
                                 {% endfor %}
@@ -28,8 +28,8 @@
                     {% if site.data.profile.awards %}
                     <div class="col-md-12">
                         <div class="mx-2 my-1">
-                            <h6>Honors & Awards</h6>
-                            <ul class="list small pl-3 mb-1">
+                            <h4>Honors & Awards</h4>
+                            <ul class="list small pl-3 mb-1"  style="font-size: 12pt;">
                                 {% for item in site.data.profile.awards %}
                                 <li>{{ item.name }} <em class="float-right">{{ item.date }}</em></li>
                                 {% endfor %}
