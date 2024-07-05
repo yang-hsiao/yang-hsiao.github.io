@@ -27,13 +27,13 @@ portrait_caption: >-
 education:
 - name: Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
   logo: assets/images/badges/siat.jpg
-  position: Direct Ph.D. in Telecommunications Engineering
-  date: 2020.09 - 2024.06
+  position: Direct Ph.D. in Pattern Recognition and Intelligent Systems, co-supervised by PengCheng Lab
+  date: Sep. 2024 - Jun. 2029(expected)
 
 - name: Xidian University
   logo: assets/images/badges/xdu.png
   position: B.Eng. in Telecommunications Engineering
-  date: 2020.09 - 2024.06
+  date: Sep. 2020 - Jun. 2024
 
 # experience:
 # - name: Peking University
