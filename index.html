@@ -13,6 +13,6 @@ num_selected: 10
 {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
 {% 
     include widgets/publication_card.html 
-    publications=pubs <!--limit=page.num_selected--> 
+    publications=pubs limit=4
     title='Selected Publications'
 %}
