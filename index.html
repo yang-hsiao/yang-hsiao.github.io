@@ -8,12 +8,11 @@ num_selected: 10
 
 {% include widgets/news_card.html %}
 
-{% assign selected_publications = site.publications | where: "selected", "true" %}
-<!-- Selected Publications 
+
+
 {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
 {% 
     include widgets/publication_card.html 
-    publications=pubs limit=page.num_selected 
+    publications=pubs <!--limit=page.num_selected--> 
     title='Selected Publications'
 %}
--->
