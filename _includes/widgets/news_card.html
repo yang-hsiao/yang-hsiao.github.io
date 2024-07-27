@@ -1,14 +1,14 @@
 <div class="row mt-3">
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4">
+            <div class="card-body p-4 news-container">
 
                 <div class="row">
                     {% if site.data.profile.news %}
                     <div class="col-md-12">
                         <div class="mx-2 my-1">
                             <h4>News</h4>
-                            <ul class="list small pl-3 mb-1" style="font-size: 12pt;">
+                            <ul class="list small pl-3 mb-1" style="font-size: 12pt; height: 100%; overflow-y: scroll;">
                                 {% for item in site.data.profile.news %}
                                 <li>[{{ item.date }}]{{ item.name }} </li>
                                 {% endfor %}
