@@ -58,12 +58,13 @@ img.lazy {
 .email-text {
     font-family: Courier, monospace;
 }
-
-
-
   
   /* 添加滚动条 */
 .news-container {
     height: 200px; /* 根据需要设置固定高度 */
     overflow-y: scroll; /* 允许垂直滚动 */
 }
+
+.list {
+    list-style-type: disc; /* 使用默认的实心圆点 */
+  }
