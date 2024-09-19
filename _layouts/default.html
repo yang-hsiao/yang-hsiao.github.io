@@ -30,5 +30,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/github-buttons/2.14.2/buttons.min.js" integrity="sha512-OYwZx04hKFeFNYrWxIyo3atgGpb+cxU0ENWBZs72X7T9U+NoHPM1ftUn/Mfw7dRDXrqWA6M1wBg6z6fGE32aeA==" crossorigin="anonymous"></script>
     <script src="assets/js/common.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var bibtexLinks = document.querySelectorAll('.bibtex-link');
+            bibtexLinks.forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    var bibtexPopup = document.querySelector(link.getAttribute('data-bibtex'));
+                    if (bibtexPopup.style.display === 'none') {
+                        bibtexPopup.style.display = 'block';
+                    } else {
+                        bibtexPopup.style.display = 'none';
+                    }
+                });
+            });
+        });
+        </script>
 </body>
 </html>
