@@ -19,5 +19,4 @@ authors:
 links:
   Code: https://github.com/luost26/academic-homepage
   Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
-  bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:QvAe3-z8q-kJ:scholar.google.com/&output=citation&scisdr=ClGOqUk2EKCEkUuztDM:AFWwaeYAAAAAZuK1rDOCEU8-QFzrqmpXOozDsRU&scisig=AFWwaeYAAAAAZuK1rECuwM4gJoYikDNDdEvomXs&scisf=4&ct=citation&cd=-1&hl=zh-CN
 ---
