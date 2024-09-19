@@ -36,36 +36,13 @@
             
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                 {% for link in item.links %}
-                {% if link.bibtex %} <!-- 假设 link 对象有一个 'bibtex' 属性 -->
-                <div class="bibtex-toggle">
-                    <a href="#" class="bibtex-link" data-toggle="bibtex" data-target="#bibtex-{{ loop.index }}">[{{ link.name }}]</a>
-                    <div id="bibtex-{{ loop.index }}" class="bibtex-content" style="display: none;">
-                        {{ link.bibtex }}
-                    </div>
-                </div>
+                {% if link[1].url %}
+                <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">[{{ link[0] }}]</a>
                 {% else %}
-                <a target="{{ link.target }}" href="{{ link.url }}">[{{ link.name }}]</a>
+                <a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a>
                 {% endif %}
                 {% endfor %}
             </p>
-            
-            <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                var bibtexLinks = document.querySelectorAll('.bibtex-link');
-                bibtexLinks.forEach(function(link) {
-                    link.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        var targetId = link.getAttribute('data-target');
-                        var bibtexContent = document.querySelector(targetId);
-                        if (bibtexContent.style.display === 'none') {
-                            bibtexContent.style.display = 'block';
-                        } else {
-                            bibtexContent.style.display = 'none';
-                        }
-                    });
-                });
-            });
-            </script>
         </div>
     </div>
 </div>
