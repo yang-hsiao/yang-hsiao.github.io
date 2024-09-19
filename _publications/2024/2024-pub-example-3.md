@@ -19,4 +19,15 @@ authors:
 links:
   Code: https://github.com/luost26/academic-homepage
   Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+bibtex:
+  -@article{xie2021deepsc,
+  title     = {Deep learning enabled semantic communication systems},
+  author    = {Xie, Huiqiang and Qin, Zhijin and Li, Geoffrey Ye and Juang, Biing-Hwang},
+  journal   = {IEEE Transactions on Signal Processing},
+  volume    = {69},
+  pages     = {2663--2675},
+  year      = {2021},
+  month     = {Apr.},
+  publisher = {IEEE}}
+
 ---
