@@ -11,3 +11,14 @@ $(function () {
     })
     $('[data-toggle="tooltip"]').tooltip()
 })
+
+document.getElementById('toggleButton').addEventListener('click', function() {
+    var container = document.getElementById('toggleContainer');
+    if (container.classList.contains('hidden')) {
+        container.classList.remove('hidden');
+        container.classList.add('visible');
+    } else {
+        container.classList.remove('visible');
+        container.classList.add('hidden');
+    }
+});
