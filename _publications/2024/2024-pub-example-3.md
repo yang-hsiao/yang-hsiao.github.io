@@ -20,5 +20,11 @@ links:
   Code: https://github.com/luost26/academic-homepage
   Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
   bibtex: https://github.com/facebookresearch/mae?tab=readme-ov-file#masked-autoencoders-a-pytorch-implementation#:~:text=@Article
-
+bibtex: 
+@inproceedings{example3,
+  title={Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac},
+  author={Your Name, James Wang and Some Other Name, John Doe},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2024}
+}
 ---
