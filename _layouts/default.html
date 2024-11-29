@@ -46,5 +46,18 @@
             });
         });
         </script>
+        <script>
+            function toggleBibTeX(bibtex) {
+                var bibEntry = document.getElementById('bibEntry');
+                bibEntry.textContent = bibtex;
+                if (bibEntry.style.display === "none") {
+                    bibEntry.style.display = "block";
+                } else {
+                    bibEntry.style.display = "none";
+                }
+            }
+            </script>
+            
+            <pre id="bibEntry" class="bg-light text-monospace" style="display: none;"></pre>
 </body>
 </html>
