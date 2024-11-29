@@ -25,6 +25,5 @@ bibtex:
   title={Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac},
   author={Your Name, James Wang and Some Other Name, John Doe},
   booktitle={International Conference on Machine Learning (ICML)},
-  year={2024}
-}
+  year={2024}}
 ---
